@@ -3,69 +3,122 @@
 
 <head>
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>HTML Introduction</title>
+	<title>HTML Introduction</title>
 </head>
 
 <body>
 
-    <p>Lorem <b><u>ipsum</u> dolor</b> <i><s>sit</s> amet consectetur adipisicing elit.</i> Reiciendis, at.</p>
+	<p>Lorem <b><u>ipsum</u> dolor</b> <i><s>sit</s> amet consectetur adipisicing elit.</i> Reiciendis, at.</p>
 
-    <p>
-        H<sub>2</sub>O
-        <br />
-        x<sup>2</sup>
-        <br />
-        <mark>
-            <samp>hello</samp>
+	<p>
+		H<sub>2</sub>O
+		<br />
+		x<sup>2</sup>
+		<br />
+		<mark>
+			<samp>hello</samp>
 
-            <small>world</small>
-        </mark>
-    </p>
+			<small>world</small>
+		</mark>
+	</p>
 
-    <p>
-        <b>Hello</b> <strong>World</strong> <br />
-        <b>Hello</b> <em>World</em> <br />
-        <abbr title="World Health Organization">WHO</abbr>
-        <cite>Hello</cite><br />
-        <st>helo</st> <del>world</del> <br />
-        <del>2,000 Ks</del> <ins>1800 Ks</ins> <br />
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate doloremque, nihil quas ab suscipit maiores at quis in voluptates commodi cumque tempore, mollitia hic earum vero aliquid error nesciunt beatae.</p>
-        <h1>Title 1</h1>
-        <h6>Title <span style="color: red;">6</span></h6>
-    </p>
+	<p>
+		<b>Hello</b> <strong>World</strong> <br />
+		<b>Hello</b> <em>World</em> <br />
+		<abbr title="World Health Organization">WHO</abbr>
+		<cite>Hello</cite><br />
+		<st>helo</st> <del>world</del> <br />
+		<del>2,000 Ks</del> <ins>1800 Ks</ins> <br />
+	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate doloremque, nihil quas ab suscipit maiores at
+		quis in voluptates commodi cumque tempore, mollitia hic earum vero aliquid error nesciunt beatae.</p>
+	<h1>Title 1</h1>
+	<h6>Title <span style="color: red;">6</span></h6>
+	</p>
 
-    <ul>
-        <li>Apple</li>
-        <li>Orange</li>
-    </ul>
+	<ul>
+		<li>Apple</li>
+		<li>Orange</li>
+	</ul>
 
-    <ol>
-        <li>Apple</li>
-        <li>Orange</li>
-    </ol>
+	<ol>
+		<li>Apple</li>
+		<li>Orange</li>
+	</ol>
 
-    <dl>
-        <dt>HTML</dt>
-        <dd>Hyper Text Markup Language</dd>
+	<dl>
+		<dt>HTML</dt>
+		<dd>Hyper Text Markup Language</dd>
 
-        <dt>CSS</dt>
-        <dd>Cascading Style Sheets</dd>
-    </dl>
+		<dt>CSS</dt>
+		<dd>Cascading Style Sheets</dd>
+	</dl>
 
-    <blockquote cite="https://blog.hubspot.com/sales/famous-quotes">
-        The best quotes contain messages that provide wisdom we can carry with us every day and inspire us to be our best selves. Let these words fill you with hope and give you the motivation to keep going, even when things are hard.
-    </blockquote>
-    <p>Walt Disney said: <q>The way to get started is to quit talking and begin doing.</q></p>
-    <address>
-        Written by John Doe.<br>
-        Visit us at:<br>
-        Example.com<br>
-        Box 564, Disneyland<br>
-        USA
-    </address>
+	<blockquote cite="https://blog.hubspot.com/sales/famous-quotes">
+		The best quotes contain messages that provide wisdom we can carry with us every day and inspire us to be our best
+		selves. Let these words fill you with hope and give you the motivation to keep going, even when things are hard.
+	</blockquote>
+	<p>Walt Disney said: <q>The way to get started is to quit talking and begin doing.</q></p>
+	<address>
+		Written by John Doe.<br>
+		Visit us at:<br>
+		Example.com<br>
+		Box 564, Disneyland<br>
+		USA
+	</address>
+
+	<img src="./assets/img/img1.webp" alt="">
+
+	<table>
+		<caption>Demo table caption</caption>
+		<colgroup>
+			<col style="background-color: yellow;" />
+			<col style="background-color: red;" />
+			<col />
+			<col style="background-color: green;" />
+		</colgroup>
+		<thead>
+			<tr>
+				<th>Customer</th>
+				<th colspan="2">Status / Rate</th>
+				<!-- <th>Rate</th> -->
+				<th>Balance</th>
+				<th>Deposit</th>
+			</tr>
+		</thead>
+
+		<tr>
+			<td rowspan="3">One</td>
+			<td>Two</td>
+			<td>Three</td>
+			<td>Four</td>
+			<td>Five</td>
+		</tr>
+		<tr>
+			<td>Two</td>
+			<td>Three</td>
+			<td>Four</td>
+			<td>Five</td>
+		</tr>
+		<tr>
+			<td>Two</td>
+			<td>Three</td>
+			<td>Four</td>
+			<td>Five</td>
+		</tr>
+
+		<tfoot>
+			<tr>
+				<td>Foot 1</td>
+				<td>Foot 2</td>
+				<td>Foot 3</td>
+				<td>Foot 4</td>
+				<td>Foot 5</td>
+			</tr>
+		</tfoot>
+	</table>
 </body>
 
 </html>
